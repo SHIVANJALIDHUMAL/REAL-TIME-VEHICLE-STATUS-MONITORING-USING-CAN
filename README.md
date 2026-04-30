@@ -208,7 +208,6 @@ Connect the three boards:
 - 1-Wire protocol implementation for DS18B20
 - Custom LCD CGRAM character creation (fuel bar blocks, indicator arrows)
 - ADC-to-percentage conversion and CAN message framing
-- I2C master driver from scratch for MMA7660 accelerometer
 - External interrupt handling and debouncing on LPC2129
 
 ---
