@@ -5,22 +5,39 @@ An embedded systems project implementing a **multi-node CAN (Controller Area Net
 > ✅ **Fully built and tested on real hardware** — see demo photos below.
 
 ---
-
 ## 📸 Project Demo
 
-### LCD Output (Live Readings)
-![LCD Display showing AUTO MONITOR](can1.jpeg)
-*JHD 204A 20×4 LCD showing: TEMP: 33°C | FUEL: 95% | INDICATOR arrows — live on hardware*
+<div align="center">
 
-### Full Hardware Setup
-![Three LPC2129 CAN node boards interconnected](can2.jpeg)
-*Three Vector's LPC2129 CAN Node boards connected via CAN bus (CANH/CANL) with color-coded jumper wires*
+<table>
+<tr>
+<td align="center" width="33%">
 
-### Main Node + LCD Closeup
-![Main node board with LCD](can3.jpeg)
-*Main Node board with JHD 204A LCD displaying real-time automotive parameters*
+<img src="can1.jpeg" width="250"><br>
+<b>LCD Output (Live Readings)</b><br>
+<sub>TEMP: 33°C | FUEL: 95% | Indicators active</sub>
 
----
+</td>
+
+<td align="center" width="33%">
+
+<img src="can2.jpeg" width="250"><br>
+<b>Full Hardware Setup</b><br>
+<sub>LPC2129 CAN nodes interconnected via CAN bus</sub>
+
+</td>
+
+<td align="center" width="33%">
+
+<img src="can3.jpeg" width="250"><br>
+<b>Main Node + LCD</b><br>
+<sub>JHD 204A LCD showing real-time data</sub>
+
+</td>
+</tr>
+</table>
+
+</div>
 
 ## 📌 Overview
 
@@ -67,7 +84,6 @@ A central **Main Node** receives data from peripheral nodes and displays all par
 | **LPC2129** | ARM7TDMI-S microcontroller — Vector's LPC2129 CAN Node Board (×3) |
 | **JHD 204A** | 20×4 character LCD (yellow-green backlight) |
 | **DS18B20** | 1-Wire digital temperature sensor |
-| **MMA7660** | 3-axis accelerometer (I2C) |
 | **ADC Input** | Potentiometer simulating fuel sensor on ADC channel 1 |
 | **CAN Bus** | Yellow/blue wires connecting CANH/CANL across all three boards |
 | **MAX3232** | RS232 level shifter on each board (for ISP flashing) |
