@@ -15,7 +15,7 @@ An embedded systems project implementing a **multi-node CAN (Controller Area Net
 
 <img src="can1.jpeg" width="250"><br>
 <b>LCD Output (Live Readings)</b><br>
-<sub>TEMP: 33°C | FUEL: 95% | Indicators active</sub>
+<sub>TEMP: 33°C | FUEL: 21% | Indicators active</sub>
 
 </td>
 
