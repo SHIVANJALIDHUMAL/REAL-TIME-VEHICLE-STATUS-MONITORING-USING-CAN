@@ -1,4 +1,4 @@
-# 🚗 Automotive CAN Bus Monitoring System
+# 🚗 Automotive Parameter Monitoring Using CAN 
 
 An embedded systems project implementing a **multi-node CAN (Controller Area Network) bus** for real-time automotive parameter monitoring using the **LPC2129 ARM7 microcontroller**.
 
