@@ -134,7 +134,6 @@ MAJOR_PROJECT/
     ├── CAN.c / can.h        # CAN bus driver (init, TX, RX)
     ├── can_defines.h        # CAN register & bit definitions
     ├── ds18b20.c / .h       # DS18B20 1-Wire temperature driver
-    ├── MMA_7660.c / .h      # MMA7660 accelerometer I2C driver
     ├── LCD.c / lcd.h        # 20×4 LCD character driver
     ├── lcd_defines.h        # LCD command constants
     ├── I2C.c / i2c.h        # Bit-bang I2C master driver
